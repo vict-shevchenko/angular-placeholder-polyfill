@@ -24,7 +24,7 @@ Just include the js file after AngularJS on your HTML page and the directive wil
 <input type="url" name="url" placeholder="e.g. http://victshevchenko.ua/">
 <input type="tel" name="tel" placeholder="e.g. +380 67 123 456 7">
 <input type="password" name="password" placeholder="e.g. h68*JK456d">
-<input type="search" name="search" placeholder="Search this site…">
+<input type="search" name="search" placeholder="Search this siteï¿½">
 <textarea name="comment" placeholder="Please, write your comment here"></textarea>
 ```
 
