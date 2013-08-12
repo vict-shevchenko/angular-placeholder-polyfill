@@ -1,4 +1,4 @@
-Angular-placeholder-polyfill
+Angular-placeholder-polyfill  [in progress]
 ============================
 
 A directive for AngularJS which allows using of 'placeholder' attribute in unsupported browsers. 
