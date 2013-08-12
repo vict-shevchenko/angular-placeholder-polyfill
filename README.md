@@ -6,7 +6,7 @@
 
 - Cross-browser & Cross-styling
 - Support for all input types, password, textarea, text, email, search, url, etc...
-- Watch model, so placeholder updates,as modal is changed outside.
+- Watch model, so placeholder updates,as model is changed outside.
 
 *Requires jQuery 1.4.4 or higher*
 
