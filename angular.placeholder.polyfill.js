@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('mainModule')
+    angular.module('app')
         .directive('placeholder', ['$timeout', function ($timeout) {
             return function(scope, el, attrs){
                 var settings = {
