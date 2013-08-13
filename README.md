@@ -36,7 +36,7 @@ See [placeholder.css](https://github.com/vict-shevchenko/angular-placeholder-pol
 
 ## Demo
 
-For a demo see [demo.html](https://github.com/vict-shevchenko/angular-placeholder-polyfill/blob/master/demo.html) **[online](http://vict-shevchenko.github.com/angular-placeholder-polyfill/)**
+For a demo see **[online](http://vict-shevchenko.github.com/angular-placeholder-polyfill/)**
 
 ## TODO
 - Optimise
