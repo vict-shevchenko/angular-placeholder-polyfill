@@ -17,9 +17,8 @@
 
                 copyAttrs = function() {
                     var a = {};
-                    var exclude = settings.excludedAttrs;
                     $.each(attrs.$attr, function (i, attrName) {
-                        if (!~$.inArray(attrName, exclude)) {
+                        if (!~$.inArray(attrName, settings.excludedAttrs)) {
                             a[attrName] = attrs[attrName];
                         }
                     });
@@ -56,13 +55,16 @@
                     setPlaceholder = function(){
                         if(!el.val()){
                             el.val(placeholderText);
-                            el.addClass(settings.cssClass);
+
+                            $timeout(function(){
+                                el.addClass(settings.cssClass); /*hint, IE does not aplly style without timeout*/
+                            }, 0)
                         }
                     };
 
                     removePlaceholder = function(){
                         if (el.hasClass(settings.cssClass)) {
-                            el.val('');
+                            el.val('').select();    /*trick IE, because after tabbing focus to input, there is no cursor in it*/
                             el.removeClass(settings.cssClass);
                         }
                     };
